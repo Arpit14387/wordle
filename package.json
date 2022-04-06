@@ -1,9 +1,10 @@
 
 {
-  "homepage": "http://Arpit14387.github.io/wordle",
+  
   "name": "wordle",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Arpit14387.github.io/wordleGame",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
