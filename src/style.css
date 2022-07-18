@@ -1,0 +1,650 @@
+body{
+    background-image: linear-gradient(65deg, #1A1A2E 50%, #16213E 50%);
+  }
+  
+  
+  .br{
+    background-color: aliceblue;
+  }
+  
+  .titl{
+    width: 45px;
+    background-color: black;
+    border: none;
+    
+  }
+
+  .bottomnav{
+    z-index: 5;
+    text-align: center;
+    margin: 0px;
+     overflow: hidden;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     font-size: 5px;
+   }
+   
+   .storyset{
+     
+     margin-left: 0px;
+     text-align: center;
+     text-decoration: none;
+     
+     
+   }
+
+  .titlename{
+    margin: 0px;
+    font-size: 40px;
+    color: wheat;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+  }
+  
+  .title{
+   animation: tit 2s infinite;
+    margin: 0px;
+    color:aliceblue;
+    font-size: 30px;
+    letter-spacing: 28px;
+    
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  
+  #a0{
+    animation: tit 3s infinite;
+  }
+  
+  #a3{
+    animation: tit2 3s infinite;
+    animation-delay: 2s;
+  }
+  
+  #a4{
+    animation: tit 3s infinite;
+    animation-delay: 1s;
+  }
+  #a2{
+    animation: tit3 3s infinite;
+    animation-delay: 4s;
+  }
+  
+  @keyframes tit{
+    0% {transform: rotateX(180deg); background-color: green;}
+  50% {transform: rotateX(0deg); }
+  }
+  @keyframes tit2{
+    0% {transform: rotateX(180deg); background-color: yellow;}
+  50% {transform: rotateX(0deg); }
+  }
+  @keyframes tit3{
+    0% {transform: rotateX(180deg); background-color: gray;}
+  50% {transform: rotateX(0deg); }
+  }
+  .App{
+    /* background-color: black; */
+    background-image: linear-gradient(65deg, #1A1A2E 50%, #16213E 50%);
+  }
+  .name{
+    
+    color: wheat;
+  }
+
+  .right, .wrong{
+    height: 200px;
+    width: 200px;
+  }
+  
+  input{
+    cursor: none;
+    
+    caret-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: #0F3460;
+    font-weight: bolder;
+    text-transform: uppercase;
+  width: 40px;
+  height: 45px;
+  /* padding: 18px; */
+  margin: 1px;
+  border: none;
+  border-style: solid;
+   border-color: #0667a7; 
+    
+  }
+  /* .title1{
+      padding-left: 45%;
+  }
+  .title3{
+    text-align: center;
+    padding-left: 43.5%;
+  }
+
+  .title2{
+    text-align: center;
+    padding-left: 40%;
+  } */
+  .titl2{
+      text-align: center;
+
+    width: 40px;
+    background-color: #0F3460;
+    border: none;
+    border-style: solid;
+    border-color: #0667a7; 
+
+  }
+
+  #notaword{
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  
+
+  .done{
+    color: blueviolet;
+  }
+  
+  .g{
+  
+    pointer-events: none;
+    cursor: none;
+    animation: animationg 1s ;
+    animation-fill-mode: forwards;
+    
+    /* transform: rotateX(180deg) */
+    /* color: rgb(5, 209, 5); */
+  }
+  
+  .y{
+    pointer-events: none;
+    cursor: none;
+    animation: animationy 1s ;
+    animation-fill-mode: forwards;
+  }
+  
+  .b{
+    pointer-events: none;
+    cursor: none;
+    animation: animationb 1s ;
+    animation-fill-mode: forwards;
+  }
+  
+  .w{
+    pointer-events: none;
+    cursor: none;
+    animation: animation 1s ;
+    background-color: aliceblue;
+  }
+  
+  
+  
+  
+  .popup-content{
+    margin-left: 50%;
+    text-align: center;
+    font-size: 15px;
+    width: 25px;
+  }
+  
+  
+  
+  .modal{
+  width: 15px;
+  }
+  
+  Button{
+    background-color: greenyellow;
+    padding: 15px;
+    margin: 10px;
+    border-color: black;
+    border-radius: 15px;
+  }
+  
+  .msg{
+    animation: example linear 3s;
+    /* animation-iteration-count: 1; */
+  
+    text-transform: uppercase;
+    font-size: 45px;
+    color: tomato;
+    font-weight: bolder;
+    font-family: cursive;
+    
+  
+  }
+  
+  @keyframes example {
+    from {color: tomato;}
+    to {color: black;}
+  }
+  
+  @keyframes animation {
+    0% {transform: rotateX(180deg);}
+  50% {transform: rotateX(0deg);}
+    /* 100% {transform: rotateX(360deg);} */
+  }
+  
+  @keyframes animationg {
+    0% {transform: rotateX(180deg);}
+  50%{transform: rotateX(0deg); background-color: rgb(5, 209, 5);
+    border-color: rgb(5, 209, 5);}
+    100%{transform: rotateX(0deg); background-color: rgb(5, 209, 5);
+      border-color: rgb(5, 209, 5);}
+    
+  }
+  @keyframes animationy {
+    0% {transform: rotateX(180deg);}
+  50%{transform: rotateX(0deg); background-color: rgb(202, 202, 4);
+    border-color: rgb(202, 202, 4) ;}
+    100%{transform: rotateX(0deg); background-color: rgb(202, 202, 4);
+      border-color: rgb(202, 202, 4) ;}
+    
+  }
+  @keyframes animationb {
+    0% {transform: rotateX(180deg);}
+  50%{transform: rotateX(0deg);  background-color: gray;
+    border-color: gray;}
+    100%{transform: rotateX(0deg);  background-color: gray;
+      border-color: gray;}
+    
+  }
+  .butt{
+    color: aliceblue;
+  }
+  
+  p{
+    color: wheat;
+  }
+  
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    /* right: 25px;
+    font-size: 36px;
+    margin-left: 50px; */
+    font-size: 36px;
+    float: right;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    float: left;
+    font-size: 15px;
+    cursor: pointer;
+    /* background-color: #111; */
+    background-color: #E94560;
+    color: white;
+    padding: 5px;
+    /* padding: 10px 15px; */
+    border: none;
+  }
+
+  .openchart{
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+    /* background-color: #111; */
+    background-color: #E94560;
+    color: white;
+    padding: 5px;
+    /* padding: 10px 15px; */
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #0667a7;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    /* padding: 20px; */
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  /* .center{
+    
+    text-align: center;
+  } */
+  
+   Link{
+     
+    text-decoration: none;
+  }
+  
+  .ul1{
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .ul2{
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+  
+  .butt2{
+    padding: 20px;
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+  .ul2{
+      margin-top: 100px;
+  }
+  
+  
+  .esy{
+    color: green;
+  
+  }
+  
+  .med{
+    color: yellowgreen;
+  }
+  
+  .hrd{
+    color: tomato;
+  }
+  
+  .msg2{
+    color: white;
+    font-size: medium;
+   
+  }
+  
+  .hint{
+    color: greenyellow;
+    font-size: large;
+    }
+
+    .modal-box{
+      position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.6); 
+    }
+
+    .stats-box{
+      position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.8); 
+    }
+
+    .modal-item{
+     color: rgb(64, 216, 64); 
+  margin: 0 auto; 
+  margin-top: 150px;
+  padding-bottom: 25px;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  width: 30%; 
+    }
+
+    #failure{
+      color: black;
+      font-weight: bold;
+    }
+
+    #success{
+      color: black;
+      font-weight: bold;
+    }
+
+   .stat{
+    font-size: 20px;
+   } 
+
+    .closemodal{
+      text-align: end;
+      margin: 0px;
+      font-size: 15px;
+      color: black;
+    }
+
+    .closemodal2{
+      text-align: end;
+      margin: 0px;
+      font-size: 20px;
+      color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .modal-item{
+        width: 70%;
+      }
+    }
+ 
+    .box2{
+    
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      align-items: center;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 4vh;
+      
+      font-weight: bold;
+      margin: 3px;
+      vertical-align: top;
+      border: 2px solid gray;
+      
+      
+    }
+
+    .hardtemp{
+      margin-top: 50px;
+    }
+
+    .box3{
+      
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      align-items: center;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 4vh;
+      
+      font-weight: bold;
+      margin: 3px;
+      vertical-align: top;
+      border: 2px solid gray;
+      
+      
+    }
+
+   
+
+    @media screen and (max-width:390px) {
+      .box3{
+        width: 25px;
+        height: 25px;
+        font-size: 3vh;
+      }
+    }
+
+    @media screen and (max-width:350px) {
+      .box3{
+        width: 20px;
+        height: 20px;
+        font-size: 3vh;
+      }
+    }
+  
+    .box7{
+      margin-left: 1px;
+      
+    }
+
+  .keyboard{
+    
+    padding-top: 70px;
+  }
+
+  .keyboard2{
+    
+    padding-top: 140px;
+  }
+
+  @media screen and (max-height:800px) {
+    .keyboard{
+      padding-top: 50px;
+    }
+
+    .keyboard2{
+      padding-top: 100px;
+    }
+
+    .box2{
+      width: 35px;
+      height: 35px;
+    }
+
+
+    
+  }
+
+  @media screen and (max-height:700px) {
+    .keyboard{
+      padding-top: 0px;
+    }
+    .keyboard2{
+      padding-top: 80px;
+    }
+    .box2{
+      width: 30px;
+      height: 8vw;
+    }
+    .hardtemp{
+      margin-top: 0px;
+    }
+  }
+
+  @media screen and (max-height:670px) {
+    .box2{
+      width: 25px;
+      height: 25px;
+    }
+
+    .keyboard2{
+      padding-top: 40px;
+    }
+    
+  }
+
+  @media screen and (max-width:380px) {
+    .box2{
+      width: 30px;
+    }
+    
+  }
+  .Keyboard-module_row__YWe5w {
+    /* background-color: #E94560; */
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 8px;
+    touch-action: manipulation;
+}
+
+.Key-module_key__Rv-Vp {
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  margin: 0 2px 0 0;
+  height: 58px;
+  border-radius: 4px;
+  cursor: pointer;
+ border: 2px black solid;
+  background-color: #E94560;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  
+}
+
+.Key-module_key__Rv-Vp:active{
+  background-color: rgb(0, 255, 64);
+}
+
+
+.Key-module_oneAndAHalf__K6JBY {
+  flex: 1.5;
+  font-size: 12px;
+}
+
+ul{
+  list-style-type: none;
+}
+
